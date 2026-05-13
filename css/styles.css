@@ -210,6 +210,7 @@ main {
 .carousel-container::-webkit-scrollbar-track {
     background: #eee;
 }
+
 .product-grid.carousel { 
     display: flex; 
     flex-wrap: nowrap; /* No envuelve para que sea horizontal */
