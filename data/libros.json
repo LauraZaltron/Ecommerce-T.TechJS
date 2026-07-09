@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1",
+    "nombre": "El Ascensor",
+    "descripcion": "Sorpresa Al Final",
+    "precio": 32000,
+    "img": "img/Ascensor.jpg"
+  },
+  {
+    "id": "2",
+    "nombre": "Hay Dias",
+    "descripcion": "Vas a Llorar",
+    "precio": 27000,
+    "img": "img/Tapa-Hay-dias.jpg"
+  },
+  {
+    "id": "3",
+    "nombre": "Un Elefante Ocupa Mucho Espacio",
+    "descripcion": "Censurado en la Dictadura",
+    "precio": 25000,
+    "img": "img/unElefanteOcupaMuchoEspacio.jpg"
+  },
+  {
+    "id": "4",
+    "nombre": "La Boca del Lobo",
+    "descripcion": "Boca de Lobo",
+    "precio": 20000,
+    "img": "img/bocadelobo.jpg"
+  },
+  {
+    "id": "5",
+    "nombre": "Clarita Invisible",
+    "descripcion": "Clarita Invisible",
+    "precio": 22000,
+    "img": "img/claritaInvisible.jpg"
+  },
+  {
+    "id": "6",
+    "nombre": "El Globo",
+    "descripcion": "El Globo",
+    "precio": 28000,
+    "img": "img/elglobo.jpg"
+  },
+  {
+    "id": "7",
+    "nombre": "Oruga Gordita y Regordita",
+    "descripcion": "Oruga Gordita y Regordita",
+    "precio": 24000,
+    "img": "img/orugagorditaregordita.jpg"
+  },
+  {
+    "id": "8",
+    "nombre": "Federico y el tiempo",
+    "descripcion": "Federico y el tiempo",
+    "precio": 26000,
+    "img": "img/Federico y el tiempo.jpg"
+  },
+  {
+    "id": "9",
+    "nombre": "Las Doce Princesas Bailarinas",
+    "descripcion": "Las Doce Princesas Bailarinas",
+    "precio": 28000,
+    "img": "img/las-doce-princesas-bailarinas.jpg"
+  }
+]

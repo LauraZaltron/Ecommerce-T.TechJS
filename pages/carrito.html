@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto | Infancias Lectoras</title>
+    <title>Carrito | Infancias Lectoras</title>
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,32 +23,21 @@
     </header>
 
     <main class="container">
-        <section class="contact-section">
-            <h3 class="section-title">¿Tienes alguna duda?</h3>
-            <p style="text-align: center;">Envíanos un mensaje y te asesoraremos con la mejor lectura para los peques.</p>
-            
-            <form class="contact-form">
-                <div class="form-group">
-                    <label>Nombre:</label>
-                    <input type="text" placeholder="Tu nombre">
-                </div>
-                <div class="form-group">
-                    <label>Email:</label>
-                    <input type="email" placeholder="tu@email.com">
-                </div>
-                <div class="form-group">
-                    <label>Consulta:</label>
-                    <textarea name="consulta" placeholder="¿En qué podemos ayudarte?"></textarea>
-                </div>
-                <button type="submit" class="btn-add">Enviar Mensaje</button>
-            </form>
+        <h3 class="section-title">Carrito de compras</h3>
+        <section id="contenedor-carrito" class="product-grid">
         </section>
+
+        <div id="resumen-carrito" class="carrito-resumen">
+        </div>
+
+        <div id="acciones-carrito" class="acciones-carrito">
+        </div>
     </main>
 
     <footer class="main-footer">
         <p>&copy; 2026 Infancias Lectoras</p>
     </footer>
 
-    <script type="module" src="../js/contacto.js"></script>
+    <script type="module" src="../js/carrito.js"></script>
 </body>
 </html>

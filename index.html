@@ -17,6 +17,7 @@
                 <li><a href="./index.html">Inicio</a></li>
                 <li><a href="./pages/libros.html">Libros</a></li>
                 <li><a href="./pages/contacto.html">Contacto</a></li>
+                <li><a href="./pages/carrito.html" class="carrito-icono">🛒 <span id="contador-carrito">0</span></a></li>
             </ul>
         </nav>
     </header>
@@ -34,43 +35,7 @@
             <button class="carousel-btn prev" id="prevBtn">&#10094;</button>
             
             <div class="carousel-container" id="carouselContainer">
-                <div class="product-grid carousel">
-
-                    <article class="product-card">
-                        <div class="product-image"><img src="./img/Ascensor.jpg" alt="Libro 1"></div>
-                        <div class="product-info">
-                            <h4>El Ascensor</h4>
-                            <span class="price">$32000.00</span>
-                            <button class="btn-add">Ver Detalle</button>
-                        </div>
-                    </article>
-                    
-                    <article class="product-card">
-                        <div class="product-image"><img src="./img/Tapa-Hay-dias.jpg" alt="Libro 2"></div>
-                        <div class="product-info">
-                            <h4>Hay Dias</h4>
-                            <span class="price">$27000.00</span>
-                            <button class="btn-add">Ver Detalle</button>
-                        </div>
-                    </article>
-
-                    <article class="product-card">
-                        <div class="product-image"><img src="./img/unElefanteOcupaMuchoEspacio.jpg" alt="Libro 3"></div>
-                        <div class="product-info">
-                            <h4>Un Elefante Ocupa Mucho Espacio</h4>
-                            <span class="price">$25000.00</span>
-                            <button class="btn-add">Ver Detalle</button>
-                        </div>
-                    </article>
-
-                    <article class="product-card">
-                        <div class="product-image"><img src="./img/bocadelobo.jpg" alt="Libro 4"></div>
-                        <div class="product-info">
-                            <h4>La Boca del Lobo</h4>
-                            <span class="price">$20000.00</span>
-                            <button class="btn-add">Ver Detalle</button>
-                        </div>
-                    </article>
+                <div class="product-grid carousel" id="carousel-contenedor">
                 </div>
             </div>
 
@@ -81,6 +46,8 @@
     <footer class="main-footer">
         <p>&copy; 2026 Infancias Lectoras | <a href="./pages/contacto.html">Escríbenos aquí</a></p>
     </footer>
+
+    <script src="./js/index.js" type="module"></script>
 </body>
 </html>
 

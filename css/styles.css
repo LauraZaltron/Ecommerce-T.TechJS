@@ -274,6 +274,69 @@ main {
     font-weight: bold; 
 }
 
+/* Carrito */
+.carrito-icono {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+#contador-carrito {
+    background-color: #FFBF00;
+    color: #002d40;
+    border-radius: 50%;
+    padding: 0 6px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    line-height: 1.6;
+    min-width: 20px;
+    text-align: center;
+}
+
+.mensaje-carrito-vacio {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 2rem;
+    color: #002d40;
+    width: 100%;
+}
+
+.carrito-resumen {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.carrito-total {
+    font-family: 'Fredoka', cursive !important;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #002d40;
+}
+
+.acciones-carrito {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.btn-eliminar {
+    background-color: #d9534f !important;
+    color: white !important;
+    margin-top: 8px;
+}
+
+.btn-vaciar {
+    background-color: #002d40 !important;
+    color: #FFBF00 !important;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.product-info .description {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 5px 0;
+}
+
 /* Media Query para pantallas pequeñas */
 @media (max-width: 480px) {
     .main-header {
