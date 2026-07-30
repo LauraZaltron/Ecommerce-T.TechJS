@@ -2,28 +2,28 @@
   {
     "id": "1",
     "nombre": "El Ascensor",
-    "descripcion": "Sorpresa Al Final",
+    "descripcion": "Funciona?",
     "precio": 32000,
     "img": "img/Ascensor.jpg"
   },
   {
     "id": "2",
     "nombre": "Hay Dias",
-    "descripcion": "Vas a Llorar",
+    "descripcion": "Hay Dias",
     "precio": 27000,
     "img": "img/Tapa-Hay-dias.jpg"
   },
   {
     "id": "3",
     "nombre": "Un Elefante Ocupa Mucho Espacio",
-    "descripcion": "Censurado en la Dictadura",
+    "descripcion": "Un Elefante Ocupa Mucho Espacio",
     "precio": 25000,
     "img": "img/unElefanteOcupaMuchoEspacio.jpg"
   },
   {
     "id": "4",
     "nombre": "La Boca del Lobo",
-    "descripcion": "Boca de Lobo",
+    "descripcion": "La Boca del Lobo",
     "precio": 20000,
     "img": "img/bocadelobo.jpg"
   },
